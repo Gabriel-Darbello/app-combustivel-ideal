@@ -1,13 +1,15 @@
+// Importa os componentes nativos
 import { Text, View, StyleSheet } from 'react-native'
-
+// Cria o componente Header
 export default function Header() {
+  // Retorna um Header simples
   return (
-    <View style={styles.container}> 
+    <View style={styles.container}>
       <Text style={styles.title}>ÁLCOOL OU GASOLINA</Text>
     </View>
   )
 }
-
+// Estilização do Header
 const styles = StyleSheet.create({
   container: {
     width: '100%',
